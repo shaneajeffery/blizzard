@@ -331,7 +331,7 @@ func TestD3Item(t *testing.T) {
 }
 
 func TestD3Profile(t *testing.T) {
-	dat, _, err := usClient.D3Profile(context.Background(), "FuzzyStatic#1384")
+	dat, _, err := usClient.D3Profile(context.Background(), "shaneajeffery#1384")
 	if err != nil {
 		fmt.Println(err)
 		t.Fail()
@@ -343,7 +343,7 @@ func TestD3Profile(t *testing.T) {
 }
 
 func TestD3ProfileHero(t *testing.T) {
-	dat, _, err := usClient.D3ProfileHero(context.Background(), "FuzzyStatic#1384", 132182102)
+	dat, _, err := usClient.D3ProfileHero(context.Background(), "shaneajeffery#1384", 132182102)
 	if err != nil {
 		fmt.Println(err)
 		t.Fail()
@@ -355,7 +355,7 @@ func TestD3ProfileHero(t *testing.T) {
 }
 
 func TestD3ProfileHeroItems(t *testing.T) {
-	dat, _, err := usClient.D3ProfileHeroItems(context.Background(), "FuzzyStatic#1384", 132182102)
+	dat, _, err := usClient.D3ProfileHeroItems(context.Background(), "shaneajeffery#1384", 132182102)
 	if err != nil {
 		fmt.Println(err)
 		t.Fail()
@@ -367,7 +367,7 @@ func TestD3ProfileHeroItems(t *testing.T) {
 }
 
 func TestD3ProfileHeroFollowerItems(t *testing.T) {
-	dat, _, err := usClient.D3ProfileHeroFollowerItems(context.Background(), "FuzzyStatic#1384", 132182102)
+	dat, _, err := usClient.D3ProfileHeroFollowerItems(context.Background(), "shaneajeffery#1384", 132182102)
 	if err != nil {
 		fmt.Println(err)
 		t.Fail()

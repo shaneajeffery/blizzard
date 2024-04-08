@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FuzzyStatic/blizzard/v3/wowgd"
-	"github.com/FuzzyStatic/blizzard/v3/wowsearch"
+	"github.com/shaneajeffery/blizzard/v3/wowgd"
+	"github.com/shaneajeffery/blizzard/v3/wowsearch"
 )
 
 func TestWoWAchievementCategoriesIndex(t *testing.T) {
